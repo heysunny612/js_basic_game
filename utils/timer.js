@@ -1,4 +1,4 @@
-const MAX_TIME = 3600 * 24; //최대 시간은 24시간
+const MAX_TIME = 10; //3600 * 24; //최대 시간은 24시간
 
 const gameTime = document.querySelector('.game-time');
 export let isGameStart = false;
