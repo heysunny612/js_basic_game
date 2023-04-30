@@ -11,7 +11,7 @@ const convertToTwoNumber = (num) => {
   else return stringNum;
 };
 
-const getTimeString = (time) => {
+export const getTimeString = (time) => {
   //ex ) 1시간 1분 1초->
   //1초 = 1
   //1분은 = 60
@@ -58,3 +58,5 @@ export const setTimer = (initTime) => {
   time = initTime;
   gameTime.innerText = getTimeString(time);
 };
+
+
